@@ -4,3 +4,12 @@
 		margin: 0px
 	}
 }
+@media (orientation: portrait) {
+	body {
+		background-image: url("/img/background-portrait.jpg");
+		margin: 0px;
+		background-position-x: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
