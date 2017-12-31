@@ -1,0 +1,6 @@
+@media (orientation: landscape) {
+	body {
+		background-image: url("/img/background.jpg");
+		margin: 0px
+	}
+}
