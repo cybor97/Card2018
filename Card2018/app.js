@@ -27,7 +27,7 @@ function initApp() {
 	for (var i = 1; i <= 5; i++)
 		PIXI.loader.add("/img/snow/snow" + i + ".png");
 
-	SCROLL_TEXT = b64ToUTF8(document.documentURI.split('<1>')[1].split('</1>')[0]);
+	SCROLL_TEXT = b64ToUTF8(document.location.href.split('<1>')[1].split('</1>')[0]);
 
 	var copyright = new PIXI.Text('© [CYBOR] 2018', {
 			fill: 0x00FF00,
